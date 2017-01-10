@@ -1,0 +1,23 @@
+<templateSet group="GMFE">
+  <template name="Com" value="class $END$ extends React.Component {&#10;    render(){&#10;        return (&#10;            &lt;div&gt;&lt;/div&gt;&#10;        );&#10;    }&#10;}" description="react component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="constructor" value="constructor(props){&#10;    super(props);&#10;    $END$&#10;}" description="quick constructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="gly" value="glyphicon glyphicon-$END$" description="glyphicon glyphicon" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bind" value="this.$FUN$ = ::this.$FUN$;$END$" description="bing this" toReformat="false" toShortenFQNames="true">
+    <variable name="FUN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
