@@ -1,23 +1,498 @@
 <templateSet group="GMFE">
-  <template name="Com" value="class $END$ extends React.Component {&#10;    render(){&#10;        return (&#10;            &lt;div&gt;&lt;/div&gt;&#10;        );&#10;    }&#10;}" description="react component" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="constructor" value="constructor(props){&#10;    super(props);&#10;    $END$&#10;}" description="quick constructor" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="gly" value="glyphicon glyphicon-$END$" description="glyphicon glyphicon" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="bind" value="this.$FUN$ = ::this.$FUN$;$END$" description="bing this" toReformat="false" toShortenFQNames="true">
-    <variable name="FUN" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
+    <template name="Com"
+              value="class $END$ extends React.Component {&#10;    render(){&#10;        return (&#10;            &lt;div&gt;&lt;/div&gt;&#10;        );&#10;    }&#10;}"
+              description="react component" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="constructor" value="constructor(props){&#10;    super(props);&#10;    $END$&#10;}"
+              description="quick constructor" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gly" value="glyphicon glyphicon-$END$" description="glyphicon glyphicon" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="bind" value="this.$FUN$ = ::this.$FUN$;$END$" description="bing this" toReformat="false"
+              toShortenFQNames="true">
+        <variable name="FUN" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-text-red" value="gm-text-red" description="gm-text-red" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-text-desc" value="gm-text-desc" description="gm-text-desc" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-text-helper" value="gm-text-helper" description="gm-text-helper" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-bg" value="gm-bg" description="gm-bg" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-back-bg" value="gm-back-bg" description="gm-back-bg" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-bg-info" value="gm-bg-info" description="gm-bg-info" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-bg-invalid" value="gm-bg-invalid" description="gm-bg-invalid" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-invalid" value="gm-invalid" description="gm-invalid" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-border" value="gm-border" description="gm-border" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-border-bottom" value="gm-border-bottom" description="gm-border-bottom" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-border-top" value="gm-border-top" description="gm-border-top" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-border-left" value="gm-border-left" description="gm-border-left" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-border-right" value="gm-border-right" description="gm-border-right" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-border-top-0" value="gm-border-top-0" description="gm-border-top-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-block" value="gm-block" description="gm-block" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-inline-block" value="gm-inline-block" description="gm-inline-block" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-inline" value="gm-inline" description="gm-inline" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-whiteframe1" value="gm-whiteframe1" description="gm-whiteframe1" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-gap-5" value="gm-gap-5" description="gm-gap-5" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-gap-10" value="gm-gap-10" description="gm-gap-10" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-gap-15" value="gm-gap-15" description="gm-gap-15" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-0" value="gm-padding-0" description="gm-padding-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-5" value="gm-padding-5" description="gm-padding-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-10" value="gm-padding-10" description="gm-padding-10" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-15" value="gm-padding-15" description="gm-padding-15" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-top-0" value="gm-padding-top-0" description="gm-padding-top-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-top-5" value="gm-padding-top-5" description="gm-padding-top-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-top-10" value="gm-padding-top-10" description="gm-padding-top-10" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-top-15" value="gm-padding-top-15" description="gm-padding-top-15" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+
+    <template name="gm-padding-bottom-0" value="gm-padding-bottom-0" description="gm-padding-bottom-0"
+              toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-bottom-5" value="gm-padding-bottom-5" description="gm-padding-bottom-5"
+              toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-bottom-10" value="gm-padding-bottom-10" description="gm-padding-bottom-10"
+              toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-bottom-15" value="gm-padding-bottom-15" description="gm-padding-bottom-15"
+              toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+
+    <template name="gm-padding-left-0" value="gm-padding-left-0" description="gm-padding-left-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-left-5" value="gm-padding-left-5" description="gm-padding-left-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-left-10" value="gm-padding-left-10" description="gm-padding-left-10" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-left-15" value="gm-padding-left-15" description="gm-padding-left-15" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+
+    <template name="gm-padding-right-0" value="gm-padding-right-0" description="gm-padding-right-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-right-5" value="gm-padding-right-5" description="gm-padding-right-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-right-10" value="gm-padding-right-10" description="gm-padding-right-10"
+              toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-right-15" value="gm-padding-right-15" description="gm-padding-right-15"
+              toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+
+    <template name="gm-padding-lr-0" value="gm-padding-lr-0" description="gm-padding-lr-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-lr-5" value="gm-padding-lr-5" description="gm-padding-lr-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-lr-10" value="gm-padding-lr-10" description="gm-padding-lr-10" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-lr-15" value="gm-padding-lr-15" description="gm-padding-lr-15" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-tb-0" value="gm-padding-tb-0" description="gm-padding-tb-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-tb-5" value="gm-padding-tb-5" description="gm-padding-tb-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-tb-10" value="gm-padding-tb-10" description="gm-padding-tb-10" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-padding-tb-15" value="gm-padding-tb-15" description="gm-padding-tb-15" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-0" value="gm-margin-0" description="gm-margin-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-5" value="gm-margin-5" description="gm-margin-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-10" value="gm-margin-10" description="gm-margin-10" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-15" value="gm-margin-15" description="gm-margin-15" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-top-0" value="gm-margin-top-0" description="gm-margin-top-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-top-5" value="gm-margin-top-5" description="gm-margin-top-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-top-10" value="gm-margin-top-10" description="gm-margin-top-10" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-top-15" value="gm-margin-top-15" description="gm-margin-top-15" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+
+    <template name="gm-margin-bottom-0" value="gm-margin-bottom-0" description="gm-margin-bottom-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-bottom-5" value="gm-margin-bottom-5" description="gm-margin-bottom-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-bottom-10" value="gm-margin-bottom-10" description="gm-margin-bottom-10"
+              toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-bottom-15" value="gm-margin-bottom-15" description="gm-margin-bottom-15"
+              toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+
+    <template name="gm-margin-left-0" value="gm-margin-left-0" description="gm-margin-left-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-left-5" value="gm-margin-left-5" description="gm-margin-left-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-left-10" value="gm-margin-left-10" description="gm-margin-left-10" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-left-15" value="gm-margin-left-15" description="gm-margin-left-15" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+
+    <template name="gm-margin-right-0" value="gm-margin-right-0" description="gm-margin-right-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-right-5" value="gm-margin-right-5" description="gm-margin-right-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-right-10" value="gm-margin-right-10" description="gm-margin-right-10" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-right-15" value="gm-margin-right-15" description="gm-margin-right-15" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+
+    <template name="gm-margin-lr-0" value="gm-margin-lr-0" description="gm-margin-lr-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-lr-5" value="gm-margin-lr-5" description="gm-margin-lr-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-lr-10" value="gm-margin-lr-10" description="gm-margin-lr-10" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-lr-15" value="gm-margin-lr-15" description="gm-margin-lr-15" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+
+    <template name="gm-margin-tb-0" value="gm-margin-tb-0" description="gm-margin-tb-0" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-tb-5" value="gm-margin-tb-5" description="gm-margin-tb-5" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-tb-10" value="gm-margin-tb-10" description="gm-margin-tb-10" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+    <template name="gm-margin-tb-15" value="gm-margin-tb-15" description="gm-margin-tb-15" toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+        </context>
+    </template>
+
 </templateSet>
