@@ -4,11 +4,6 @@
 
 将`GMFE.xml`复制到
 
-`~/Library/Preferences/WebStorm2016.2/templates`
-
-or
-
-`~/Library/Preferences/WebStorm2016.3/templates`
-
+`~/Library/Preferences/WebStorm2017.3/templates`
 
 重启 WebStrom

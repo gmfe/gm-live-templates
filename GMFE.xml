@@ -1,28 +1,54 @@
 <templateSet group="GMFE">
-    <template name="Com"
-              value="class $END$ extends React.Component {&#10;    render(){&#10;        return (&#10;            &lt;div&gt;&lt;/div&gt;&#10;        );&#10;    }&#10;}"
-              description="react component" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="JAVA_SCRIPT" value="true"/>
-        </context>
-    </template>
-    <template name="constructor" value="constructor(props){&#10;    super(props);&#10;    $END$&#10;}"
-              description="quick constructor" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="JAVA_SCRIPT" value="true"/>
-        </context>
-    </template>
-    <template name="gly" value="glyphicon glyphicon-$END$" description="glyphicon glyphicon" toReformat="false"
-              toShortenFQNames="true">
-        <context>
-            <option name="JAVA_SCRIPT" value="true"/>
-        </context>
-    </template>
-    <template name="bind" value="this.$FUN$ = ::this.$FUN$;$END$" description="bing this" toReformat="false"
-              toShortenFQNames="true">
-        <variable name="FUN" expression="" defaultValue="" alwaysStopAt="true"/>
-        <context>
-            <option name="JAVA_SCRIPT" value="true"/>
-        </context>
-    </template>
+  <template name="Com" value="class $END$ extends React.Component {&#10;    render(){&#10;        return (&#10;            &lt;div&gt;&lt;/div&gt;&#10;        );&#10;    }&#10;}" description="react component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="constructor" value="constructor(props){&#10;    super(props);&#10;    $END$&#10;}" description="quick constructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="gly" value="glyphicon glyphicon-$END$" description="glyphicon glyphicon" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bind" value="this.$FUN$ = ::this.$FUN$;$END$" description="bing this" toReformat="false" toShortenFQNames="true">
+    <variable name="FUN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="il" value="import _ from 'lodash';" description="import lodash" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ir" value="import React from 'react';" description="import react" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ip" value="import PropTypes from 'prop-types';" description="import proptypes" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="irr" value="import {withRouter} from 'react-router';" description="import react-router" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iCom" value="import React from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;class $FUN$ extends React.Component {&#10;    render(){&#10;        return (&#10;            &lt;div&gt;$END$&lt;/div&gt;&#10;        );&#10;    }&#10;}&#10;&#10;$FUN$.propTypes = {&#10;};&#10;&#10;$FUN$.deaultProps = {&#10;};&#10;&#10;export default $FUN$;" description="react component" toReformat="false" toShortenFQNames="true">
+    <variable name="FUN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="irn" value="import {View} from 'react-native';" description="import react-native" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
